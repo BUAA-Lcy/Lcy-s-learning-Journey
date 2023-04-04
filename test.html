@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>百度一下，你就知道</title>
+  </head>
+  <link rel="stylesheet" href="附件/style.css" />
+  <script src="附件/index.js"></script>
+  <body>
+    <div class="web-outer">
+      <div id="head">
+        <div id="top-left">
+          <a href="http://news.baidu.com/" target="_blank">新闻</a>
+          <a href="https://www.hao123.com" target="_blank">hao123</a>
+          <a href="http://map.baidu.com" target="_blank">地图</a>
+          <a href="http://tieba.baidu.com" target="_blank">贴吧</a>
+          <a href="https://haokan.baidu.com/" target="_blank">视频</a>
+          <a href="http://image.baidu.com/" target="_blank">图片</a>
+          <a href="https://pan.baidu.com/" target="_blank">网盘</a>
+        </div>
+        <div id="top-right">
+          <div id="top-login-btn">登录</div>
+        </div>
+      </div>
+      <div id="outer-mid">
+        <div id="mid">
+          <div id="logo-outer">
+            <figure id="logo" title="点击一下，了解更多"></figure>
+          </div>
+          <div id="search-div">
+            <div id="search-input">
+              <input />
+              <div id="search-btn">百度一下</div>
+            </div>
+          </div>
+          <div id="hot-title">热榜之21371451分榜</div>
+          <ul id="hot">
+            
+            <li>
+              <span class="hot-order hot-order-1" style="color: red">1</span>
+              <span class="hot-content" style="margin-right: 10px">原神</span>
+              <span class="hot-search" style="float: right">
+                <span style="float: left">12321</span>
+                <img
+                  src="./img/up.png"
+                  style="max-width: 20px; max-height: 20px; margin-left: 5px"
+                />
+              </span>
+            </li>
+            <li>
+              <span class="hot-order hot-order-2" style="color: orangered"
+                >2</span
+              >
+              <span class="hot-content" style="margin-right: 10px"
+                >香肠派对</span
+              >
+              <span class="hot-search" style="float: right">
+                <span style="float: left">102333</span>
+                <img
+                  src="./img/heng.png"
+                  style="max-width: 20px; max-height: 20px; margin-left: 5px"
+                />
+              </span>
+            </li>
+            <li>
+              <span class="hot-order hot-order-3" style="color: yellow">3</span>
+              <span class="hot-content" style="margin-right: 10px"
+                >王者荣耀</span
+              >
+              <span class="hot-search" style="float: right">
+                <span style="float: left">433</span>
+                <img
+                  src="./img/up.png"
+                  style="max-width: 20px; max-height: 20px; margin-left: 5px"
+                />
+              </span>
+            </li>
+            <li>
+              <span class="hot-order">4</span>
+              <span class="hot-content" style="margin-right: 10px"
+                >我的世界</span
+              >
+              <span class="hot-search" style="float: right">
+                <span style="float: left">222</span>
+                <img
+                  src="./img/heng.png"
+                  style="max-width: 20px; max-height: 20px; margin-left: 5px"
+                />
+              </span>
+            </li>
+            <li>
+              <span class="hot-order">5</span>
+              <span class="hot-content" style="margin-right: 10px"
+                >和平精英</span
+              >
+              <span class="hot-search" style="float: right">
+                <span style="float: left">33</span>
+                <img
+                  src="./img/up.png"
+                  style="max-width: 20px; max-height: 20px; margin-left: 5px"
+                />
+              </span>
+            </li>
+            <li>
+              <span class="hot-order">6</span>
+              <span class="hot-content" style="margin-right: 10px"
+                >植物大战僵尸</span
+              >
+              <span class="hot-search" style="float: right">
+                <span style="float: left">77</span>
+                <img
+                  src="./img/up.png"
+                  style="max-width: 20px; max-height: 20px; margin-left: 5px"
+                />
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="footer">本网页仅用于软工实验使用</div>
+      <!-- 引入核心代码，请不要修改 -->
+      <script src="code/index.js"></script>
+    </div>
+    <style>
+      #logo {
+        background-image: url("./img/logo.png");
+      }
+      #hot {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+
+      .hot-content {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 16px;
+      }
+
+      .hot-tag {
+        display: inline-block;
+        margin-left: 5px;
+        padding: 0 5px;
+        font-size: 14px;
+        color: #fff;
+        background-color: #f54545;
+        border-radius: 5px;
+      }
+    </style>
+  </body>
+</html>
