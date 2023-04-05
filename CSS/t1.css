@@ -4,9 +4,26 @@ p{
 }
 .saying{
     color: black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    line-height: 5;
+}
+pre{
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+    text-align: center;
+
 
 }
 /*
     id选择器+#
     class选择器+.
 */
+*{
+    text-align: center;
+}
