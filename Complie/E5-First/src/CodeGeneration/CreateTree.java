@@ -56,7 +56,7 @@ public class CreateTree {
     //非终结符创建函数
     void CreateTreeNode(String content) throws IOException{
         BackUp();
-        TreeNode tempNode = new TreeNode(content);
+        TreeNode tempNode = new TreeNode(content,0);
         CurNode.addChild(tempNode);
         CurNode = tempNode;
     }

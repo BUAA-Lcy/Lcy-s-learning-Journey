@@ -28,11 +28,8 @@ public class TreeNode {
         this.terminator = terminator;
     }
     public void addChild(TreeNode child) {
-
-        child.terminator = 0;
         children.add(child);
     }
-
     public void printNode() throws IOException{
         printNodeHelper("", true);
         Treebw.flush();
