@@ -1,0 +1,35 @@
+-| Symbol Table Level: 0
+    Symbols:
+    - ZERO:     Level: 0, Name: ZERO, Type: Const, DataType: null, Flag: 0
+    - ONE:     Level: 0, Name: ONE, Type: Const, DataType: null, Flag: 0
+    - var3:     Level: 0, Name: var3, Type: Var, DataType: int, Flag: 0
+    - var2:     Level: 0, Name: var2, Type: Var, DataType: int, Flag: 0
+    - fun:     Level: 0, Name: fun, Type: Func, DataType: void, Flag: 0
+    Child Symbol Tables:
+    -| Symbol Table Level: 1
+        Symbols:
+        - i:     Level: 1, Name: i, Type: Var, DataType: int, Flag: 0
+        Child Symbol Tables:
+        -| Symbol Table Level: 2
+            Symbols:
+            - yuming:     Level: 2, Name: yuming, Type: Var, DataType: int, Flag: 0
+            Child Symbol Tables:
+            -| Symbol Table Level: 3
+                Symbols:
+    -| Symbol Table Level: 1
+        Symbols:
+        Child Symbol Tables:
+        -| Symbol Table Level: 2
+            Symbols:
+            Child Symbol Tables:
+            -| Symbol Table Level: 3
+                Symbols:
+            -| Symbol Table Level: 3
+                Symbols:
+        -| Symbol Table Level: 2
+            Symbols:
+            Child Symbol Tables:
+            -| Symbol Table Level: 3
+                Symbols:
+        -| Symbol Table Level: 2
+            Symbols:

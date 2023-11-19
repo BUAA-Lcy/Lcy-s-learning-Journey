@@ -1,0 +1,111 @@
+{
+SymbolTable 
+ Level: 3
+}
+{
+SymbolTable 
+ Level: 2
+Name: yuming Type: Var Level: 2 Flag: 0 DataType: int
+}
+{
+SymbolTable 
+ Level: 1
+Name: a Type: Param Level: 1 Flag: 0 DataType: int
+Name: b Type: Param Level: 1 Flag: 0 DataType: int
+Name: i Type: Var Level: 1 Flag: 0 DataType: int
+}
+{
+SymbolTable 
+ Level: 3
+}
+{
+SymbolTable 
+ Level: 3
+}
+{
+SymbolTable 
+ Level: 2
+}
+{
+SymbolTable 
+ Level: 3
+}
+{
+SymbolTable 
+ Level: 2
+}
+{
+SymbolTable 
+ Level: 2
+}
+{
+SymbolTable 
+ Level: 1
+}
+{
+SymbolTable 
+ Level: 0
+Name: ZERO Type: Const Level: 0 Flag: 0 DataType: null
+Name: ONE Type: Const Level: 0 Flag: 0 DataType: null
+Name: var3 Type: Var Level: 0 Flag: 0 DataType: int
+Name: var2 Type: Var Level: 0 Flag: 0 DataType: int
+Name: fun Type: Func Level: 0 Flag: 0 DataType: void
+}
+
+Function information:
+Function name: fun
+Parameter number: 2
+Parameter list: 
+Parameter   name: a type: Param Flag: 0 Datatype: int
+Parameter   name: b type: Param Flag: 0 Datatype: int
+{
+SymbolTable 
+ Level: 3
+}
+{
+SymbolTable 
+ Level: 2
+Name: yuming Type: Var Level: 2 Flag: 0 DataType: int
+}
+{
+SymbolTable 
+ Level: 1
+Name: i Type: Var Level: 1 Flag: 0 DataType: int
+}
+{
+SymbolTable 
+ Level: 3
+}
+{
+SymbolTable 
+ Level: 3
+}
+{
+SymbolTable 
+ Level: 2
+}
+{
+SymbolTable 
+ Level: 3
+}
+{
+SymbolTable 
+ Level: 2
+}
+{
+SymbolTable 
+ Level: 2
+}
+{
+SymbolTable 
+ Level: 1
+}
+{
+SymbolTable 
+ Level: 0
+Name: ZERO Type: Const Level: 0 Flag: 0 DataType: null
+Name: ONE Type: Const Level: 0 Flag: 0 DataType: null
+Name: var3 Type: Var Level: 0 Flag: 0 DataType: int
+Name: var2 Type: Var Level: 0 Flag: 0 DataType: int
+Name: fun Type: Func Level: 0 Flag: 0 DataType: void
+}

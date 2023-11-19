@@ -1,0 +1,960 @@
+————————————————————-
+Index:  0
+Token: CONSTTK
+Value: const
+Line Number: 3
+————————————————————-
+————————————————————-
+Index:  1
+Token: INTTK
+Value: int
+Line Number: 3
+————————————————————-
+————————————————————-
+Index:  3
+Token: ASSIGN
+Value: =
+Line Number: 3
+————————————————————-
+————————————————————-
+Index:  4
+Value: 0
+Token: INTCON
+Line Number: 3
+————————————————————-
+————————————————————-
+Index:  5
+Token: COMMA
+Value: ,
+Line Number: 3
+————————————————————-
+————————————————————-
+Index:  7
+Token: ASSIGN
+Value: =
+Line Number: 3
+————————————————————-
+————————————————————-
+Index:  8
+Value: 1
+Token: INTCON
+Line Number: 3
+————————————————————-
+————————————————————-
+Index:  9
+Token: SEMICN
+Value: ;
+Line Number: 3
+————————————————————-
+————————————————————-
+Index:  10
+Token: INTTK
+Value: int
+Line Number: 4
+————————————————————-
+————————————————————-
+Index:  12
+Token: ASSIGN
+Value: =
+Line Number: 4
+————————————————————-
+————————————————————-
+Index:  13
+Value: 2
+Token: INTCON
+Line Number: 4
+————————————————————-
+————————————————————-
+Index:  14
+Token: COMMA
+Value: ,
+Line Number: 4
+————————————————————-
+————————————————————-
+Index:  16
+Token: ASSIGN
+Value: =
+Line Number: 4
+————————————————————-
+————————————————————-
+Index:  17
+Value: 3
+Token: INTCON
+Line Number: 4
+————————————————————-
+————————————————————-
+Index:  18
+Token: SEMICN
+Value: ;
+Line Number: 4
+————————————————————-
+————————————————————-
+Index:  19
+Token: VOIDTK
+Value: void
+Line Number: 6
+————————————————————-
+————————————————————-
+Index:  21
+Token: LPARENT
+Value: (
+Line Number: 6
+————————————————————-
+————————————————————-
+Index:  22
+Token: RPARENT
+Value: )
+Line Number: 6
+————————————————————-
+————————————————————-
+Index:  23
+Token: LBRACE
+Value: {
+Line Number: 7
+————————————————————-
+————————————————————-
+Index:  24
+Token: INTTK
+Value: int
+Line Number: 8
+————————————————————-
+————————————————————-
+Index:  26
+Token: ASSIGN
+Value: =
+Line Number: 8
+————————————————————-
+————————————————————-
+Index:  27
+Value: 1
+Token: INTCON
+Line Number: 8
+————————————————————-
+————————————————————-
+Index:  28
+Token: SEMICN
+Value: ;
+Line Number: 8
+————————————————————-
+————————————————————-
+Index:  29
+Token: LBRACE
+Value: {
+Line Number: 9
+————————————————————-
+————————————————————-
+Index:  30
+Token: INTTK
+Value: int
+Line Number: 10
+————————————————————-
+————————————————————-
+Index:  32
+Token: ASSIGN
+Value: =
+Line Number: 10
+————————————————————-
+————————————————————-
+Index:  33
+Value: 1
+Token: INTCON
+Line Number: 10
+————————————————————-
+————————————————————-
+Index:  34
+Token: SEMICN
+Value: ;
+Line Number: 10
+————————————————————-
+————————————————————-
+Index:  35
+Token: FORTK
+Value: for
+Line Number: 11
+————————————————————-
+————————————————————-
+Index:  36
+Token: LPARENT
+Value: (
+Line Number: 11
+————————————————————-
+————————————————————-
+Index:  37
+Token: SEMICN
+Value: ;
+Line Number: 11
+————————————————————-
+————————————————————-
+Index:  39
+Token: LSS
+Value: <
+Line Number: 11
+————————————————————-
+————————————————————-
+Index:  40
+Value: 1000
+Token: INTCON
+Line Number: 11
+————————————————————-
+————————————————————-
+Index:  41
+Token: SEMICN
+Value: ;
+Line Number: 11
+————————————————————-
+————————————————————-
+Index:  42
+Token: RPARENT
+Value: )
+Line Number: 11
+————————————————————-
+————————————————————-
+Index:  43
+Token: LBRACE
+Value: {
+Line Number: 12
+————————————————————-
+————————————————————-
+Index:  45
+Token: ASSIGN
+Value: =
+Line Number: 14
+————————————————————-
+————————————————————-
+Index:  47
+Token: MULT
+Value: *
+Line Number: 14
+————————————————————-
+————————————————————-
+Index:  48
+Value: 2
+Token: INTCON
+Line Number: 14
+————————————————————-
+————————————————————-
+Index:  49
+Token: SEMICN
+Value: ;
+Line Number: 14
+————————————————————-
+————————————————————-
+Index:  50
+Token: RBRACE
+Value: }
+Line Number: 15
+————————————————————-
+————————————————————-
+Index:  51
+Token: PRINTFTK
+Value: printf
+Line Number: 16
+————————————————————-
+————————————————————-
+Index:  52
+Token: LPARENT
+Value: (
+Line Number: 16
+————————————————————-
+————————————————————-
+Index:  53
+Value: "\n%d"
+Token: STRCON
+Line Number: 16
+————————————————————-
+————————————————————-
+Index:  54
+Token: COMMA
+Value: ,
+Line Number: 16
+————————————————————-
+————————————————————-
+Index:  56
+Token: RPARENT
+Value: )
+Line Number: 16
+————————————————————-
+————————————————————-
+Index:  57
+Token: SEMICN
+Value: ;
+Line Number: 16
+————————————————————-
+————————————————————-
+Index:  58
+Token: RBRACE
+Value: }
+Line Number: 17
+————————————————————-
+————————————————————-
+Index:  59
+Token: RETURNTK
+Value: return
+Line Number: 18
+————————————————————-
+————————————————————-
+Index:  60
+Token: SEMICN
+Value: ;
+Line Number: 18
+————————————————————-
+————————————————————-
+Index:  61
+Token: RBRACE
+Value: }
+Line Number: 19
+————————————————————-
+————————————————————-
+Index:  62
+Token: INTTK
+Value: int
+Line Number: 21
+————————————————————-
+————————————————————-
+Index:  63
+Token: MAINTK
+Value: main
+Line Number: 21
+————————————————————-
+————————————————————-
+Index:  64
+Token: LPARENT
+Value: (
+Line Number: 21
+————————————————————-
+————————————————————-
+Index:  65
+Token: RPARENT
+Value: )
+Line Number: 21
+————————————————————-
+————————————————————-
+Index:  66
+Token: LBRACE
+Value: {
+Line Number: 22
+————————————————————-
+————————————————————-
+Index:  67
+Token: PRINTFTK
+Value: printf
+Line Number: 23
+————————————————————-
+————————————————————-
+Index:  68
+Token: LPARENT
+Value: (
+Line Number: 23
+————————————————————-
+————————————————————-
+Index:  69
+Value: "21373457\n"
+Token: STRCON
+Line Number: 23
+————————————————————-
+————————————————————-
+Index:  70
+Token: RPARENT
+Value: )
+Line Number: 23
+————————————————————-
+————————————————————-
+Index:  71
+Token: SEMICN
+Value: ;
+Line Number: 23
+————————————————————-
+————————————————————-
+Index:  72
+Token: IFTK
+Value: if
+Line Number: 24
+————————————————————-
+————————————————————-
+Index:  73
+Token: LPARENT
+Value: (
+Line Number: 24
+————————————————————-
+————————————————————-
+Index:  75
+Token: PLUS
+Value: +
+Line Number: 24
+————————————————————-
+————————————————————-
+Index:  77
+Token: EQL
+Value: ==
+Line Number: 24
+————————————————————-
+————————————————————-
+Index:  79
+Token: MINU
+Value: -
+Line Number: 24
+————————————————————-
+————————————————————-
+Index:  81
+Token: AND
+Value: &&
+Line Number: 24
+————————————————————-
+————————————————————-
+Index:  83
+Token: RPARENT
+Value: )
+Line Number: 24
+————————————————————-
+————————————————————-
+Index:  84
+Token: LBRACE
+Value: {
+Line Number: 25
+————————————————————-
+————————————————————-
+Index:  85
+Token: IFTK
+Value: if
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  86
+Token: LPARENT
+Value: (
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  88
+Token: OR
+Value: ||
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  89
+Token: NOT
+Value: !
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  91
+Token: AND
+Value: &&
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  93
+Token: PLUS
+Value: +
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  94
+Value: 1
+Token: INTCON
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  95
+Token: PLUS
+Value: +
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  97
+Token: LSS
+Value: <
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  98
+Value: 0
+Token: INTCON
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  99
+Token: RPARENT
+Value: )
+Line Number: 26
+————————————————————-
+————————————————————-
+Index:  100
+Token: LBRACE
+Value: {
+Line Number: 27
+————————————————————-
+————————————————————-
+Index:  101
+Token: PRINTFTK
+Value: printf
+Line Number: 28
+————————————————————-
+————————————————————-
+Index:  102
+Token: LPARENT
+Value: (
+Line Number: 28
+————————————————————-
+————————————————————-
+Index:  103
+Value: "ERROR!\n"
+Token: STRCON
+Line Number: 28
+————————————————————-
+————————————————————-
+Index:  104
+Token: RPARENT
+Value: )
+Line Number: 28
+————————————————————-
+————————————————————-
+Index:  105
+Token: SEMICN
+Value: ;
+Line Number: 28
+————————————————————-
+————————————————————-
+Index:  106
+Token: RBRACE
+Value: }
+Line Number: 29
+————————————————————-
+————————————————————-
+Index:  107
+Token: ELSETK
+Value: else
+Line Number: 30
+————————————————————-
+————————————————————-
+Index:  108
+Token: LBRACE
+Value: {
+Line Number: 31
+————————————————————-
+————————————————————-
+Index:  109
+Token: PRINTFTK
+Value: printf
+Line Number: 32
+————————————————————-
+————————————————————-
+Index:  110
+Token: LPARENT
+Value: (
+Line Number: 32
+————————————————————-
+————————————————————-
+Index:  111
+Value: "And success!\n"
+Token: STRCON
+Line Number: 32
+————————————————————-
+————————————————————-
+Index:  112
+Token: RPARENT
+Value: )
+Line Number: 32
+————————————————————-
+————————————————————-
+Index:  113
+Token: SEMICN
+Value: ;
+Line Number: 32
+————————————————————-
+————————————————————-
+Index:  114
+Token: RBRACE
+Value: }
+Line Number: 33
+————————————————————-
+————————————————————-
+Index:  115
+Token: RBRACE
+Value: }
+Line Number: 34
+————————————————————-
+————————————————————-
+Index:  116
+Token: IFTK
+Value: if
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  117
+Token: LPARENT
+Value: (
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  119
+Token: NEQ
+Value: !=
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  120
+Value: 3
+Token: INTCON
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  121
+Token: OR
+Value: ||
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  123
+Token: MINU
+Value: -
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  124
+Value: 22
+Token: INTCON
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  125
+Token: EQL
+Value: ==
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  126
+Token: MINU
+Value: -
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  127
+Value: 20
+Token: INTCON
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  128
+Token: RPARENT
+Value: )
+Line Number: 36
+————————————————————-
+————————————————————-
+Index:  129
+Token: LBRACE
+Value: {
+Line Number: 37
+————————————————————-
+————————————————————-
+Index:  130
+Token: IFTK
+Value: if
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  131
+Token: LPARENT
+Value: (
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  133
+Token: MOD
+Value: %
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  134
+Value: 2
+Token: INTCON
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  135
+Token: PLUS
+Value: +
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  136
+Value: 3
+Token: INTCON
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  137
+Token: MINU
+Value: -
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  138
+Value: 4
+Token: INTCON
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  139
+Token: MULT
+Value: *
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  140
+Value: 2
+Token: INTCON
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  141
+Token: PLUS
+Value: +
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  143
+Token: PLUS
+Value: +
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  145
+Token: LEQ
+Value: <=
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  146
+Value: 100
+Token: INTCON
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  147
+Token: OR
+Value: ||
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  149
+Token: RPARENT
+Value: )
+Line Number: 39
+————————————————————-
+————————————————————-
+Index:  150
+Token: LBRACE
+Value: {
+Line Number: 40
+————————————————————-
+————————————————————-
+Index:  151
+Token: PRINTFTK
+Value: printf
+Line Number: 41
+————————————————————-
+————————————————————-
+Index:  152
+Token: LPARENT
+Value: (
+Line Number: 41
+————————————————————-
+————————————————————-
+Index:  153
+Value: "Or pass!\n"
+Token: STRCON
+Line Number: 41
+————————————————————-
+————————————————————-
+Index:  154
+Token: RPARENT
+Value: )
+Line Number: 41
+————————————————————-
+————————————————————-
+Index:  155
+Token: SEMICN
+Value: ;
+Line Number: 41
+————————————————————-
+————————————————————-
+Index:  156
+Token: RBRACE
+Value: }
+Line Number: 42
+————————————————————-
+————————————————————-
+Index:  157
+Token: RBRACE
+Value: }
+Line Number: 43
+————————————————————-
+————————————————————-
+Index:  158
+Token: PRINTFTK
+Value: printf
+Line Number: 46
+————————————————————-
+————————————————————-
+Index:  159
+Token: LPARENT
+Value: (
+Line Number: 46
+————————————————————-
+————————————————————-
+Index:  160
+Value: "Test1 Success!"
+Token: STRCON
+Line Number: 46
+————————————————————-
+————————————————————-
+Index:  161
+Token: RPARENT
+Value: )
+Line Number: 46
+————————————————————-
+————————————————————-
+Index:  162
+Token: SEMICN
+Value: ;
+Line Number: 46
+————————————————————-
+————————————————————-
+Index:  163
+Token: LBRACE
+Value: {
+Line Number: 47
+————————————————————-
+————————————————————-
+Index:  164
+Token: RBRACE
+Value: }
+Line Number: 48
+————————————————————-
+————————————————————-
+Index:  166
+Token: LPARENT
+Value: (
+Line Number: 49
+————————————————————-
+————————————————————-
+Index:  167
+Token: RPARENT
+Value: )
+Line Number: 49
+————————————————————-
+————————————————————-
+Index:  168
+Token: SEMICN
+Value: ;
+Line Number: 49
+————————————————————-
+————————————————————-
+Index:  170
+Token: LPARENT
+Value: (
+Line Number: 50
+————————————————————-
+————————————————————-
+Index:  171
+Token: RPARENT
+Value: )
+Line Number: 50
+————————————————————-
+————————————————————-
+Index:  172
+Token: SEMICN
+Value: ;
+Line Number: 50
+————————————————————-
+————————————————————-
+Index:  174
+Token: LPARENT
+Value: (
+Line Number: 51
+————————————————————-
+————————————————————-
+Index:  175
+Token: RPARENT
+Value: )
+Line Number: 51
+————————————————————-
+————————————————————-
+Index:  176
+Token: SEMICN
+Value: ;
+Line Number: 51
+————————————————————-
+————————————————————-
+Index:  178
+Token: LPARENT
+Value: (
+Line Number: 52
+————————————————————-
+————————————————————-
+Index:  179
+Token: RPARENT
+Value: )
+Line Number: 52
+————————————————————-
+————————————————————-
+Index:  180
+Token: SEMICN
+Value: ;
+Line Number: 52
+————————————————————-
+————————————————————-
+Index:  182
+Token: LPARENT
+Value: (
+Line Number: 53
+————————————————————-
+————————————————————-
+Index:  183
+Token: RPARENT
+Value: )
+Line Number: 53
+————————————————————-
+————————————————————-
+Index:  184
+Token: SEMICN
+Value: ;
+Line Number: 53
+————————————————————-
+————————————————————-
+Index:  186
+Token: LPARENT
+Value: (
+Line Number: 54
+————————————————————-
+————————————————————-
+Index:  187
+Token: RPARENT
+Value: )
+Line Number: 54
+————————————————————-
+————————————————————-
+Index:  188
+Token: SEMICN
+Value: ;
+Line Number: 54
+————————————————————-
+————————————————————-
+Index:  189
+Token: RETURNTK
+Value: return
+Line Number: 56
+————————————————————-
+————————————————————-
+Index:  190
+Value: 0
+Token: INTCON
+Line Number: 56
+————————————————————-
+————————————————————-
+Index:  191
+Token: SEMICN
+Value: ;
+Line Number: 56
+————————————————————-

@@ -1,0 +1,566 @@
+└── AST
+    └── CompUnit
+        ├── Decl
+        │   └── ConstDecl
+        │       ├── const
+        │       ├── BType
+        │       │   └── int
+        │       ├── ConstDef
+        │       │   ├── ZERO
+        │       │   ├── =
+        │       │   └── ConstInitVal
+        │       │       └── ConstExp
+        │       │           └── AddExp
+        │       │               └── MulExp
+        │       │                   └── UnaryExp
+        │       │                       └── PrimaryExp
+        │       │                           └── Number
+        │       │                               └── IntConst
+        │       ├── ,
+        │       ├── ConstDef
+        │       │   ├── ONE
+        │       │   ├── =
+        │       │   └── ConstInitVal
+        │       │       └── ConstExp
+        │       │           └── AddExp
+        │       │               └── MulExp
+        │       │                   └── UnaryExp
+        │       │                       └── PrimaryExp
+        │       │                           └── Number
+        │       │                               └── IntConst
+        │       └── ;
+        ├── Decl
+        │   └── VarDecl
+        │       ├── BType
+        │       │   └── int
+        │       ├── VarDef
+        │       │   ├── var2
+        │       │   ├── =
+        │       │   └── InitVal
+        │       │       └── Exp
+        │       │           └── AddExp
+        │       │               └── MulExp
+        │       │                   └── UnaryExp
+        │       │                       └── PrimaryExp
+        │       │                           └── Number
+        │       │                               └── IntConst
+        │       ├── ,
+        │       ├── VarDef
+        │       │   ├── var3
+        │       │   ├── =
+        │       │   └── InitVal
+        │       │       └── Exp
+        │       │           └── AddExp
+        │       │               └── MulExp
+        │       │                   └── UnaryExp
+        │       │                       └── PrimaryExp
+        │       │                           └── Number
+        │       │                               └── IntConst
+        │       └── ;
+        ├── FuncDef
+        │   ├── FuncType
+        │   │   └── void
+        │   ├── fun
+        │   ├── (
+        │   ├── FuncFParams
+        │   │   ├── FuncFParam
+        │   │   │   ├── BType
+        │   │   │   │   └── int
+        │   │   │   └── a
+        │   │   ├── ,
+        │   │   └── FuncFParam
+        │   │       ├── BType
+        │   │       │   └── int
+        │   │       └── b
+        │   ├── )
+        │   └── Block
+        │       ├── {
+        │       ├── BlockItem
+        │       │   └── Decl
+        │       │       └── VarDecl
+        │       │           ├── BType
+        │       │           │   └── int
+        │       │           ├── VarDef
+        │       │           │   ├── i
+        │       │           │   ├── =
+        │       │           │   └── InitVal
+        │       │           │       └── Exp
+        │       │           │           └── AddExp
+        │       │           │               └── MulExp
+        │       │           │                   └── UnaryExp
+        │       │           │                       └── PrimaryExp
+        │       │           │                           └── Number
+        │       │           │                               └── IntConst
+        │       │           └── ;
+        │       ├── BlockItem
+        │       │   └── Stmt
+        │       │       └── Block
+        │       │           ├── {
+        │       │           ├── BlockItem
+        │       │           │   └── Decl
+        │       │           │       └── VarDecl
+        │       │           │           ├── BType
+        │       │           │           │   └── int
+        │       │           │           ├── VarDef
+        │       │           │           │   ├── yuming
+        │       │           │           │   ├── =
+        │       │           │           │   └── InitVal
+        │       │           │           │       └── Exp
+        │       │           │           │           └── AddExp
+        │       │           │           │               └── MulExp
+        │       │           │           │                   └── UnaryExp
+        │       │           │           │                       └── PrimaryExp
+        │       │           │           │                           └── Number
+        │       │           │           │                               └── IntConst
+        │       │           │           └── ;
+        │       │           ├── BlockItem
+        │       │           │   └── Stmt
+        │       │           │       ├── for
+        │       │           │       ├── (
+        │       │           │       ├── ;
+        │       │           │       ├── Cond
+        │       │           │       │   └── LOrExp
+        │       │           │       │       └── LAndExp
+        │       │           │       │           └── EqExp
+        │       │           │       │               └── RelExp
+        │       │           │       │                   ├── AddExp
+        │       │           │       │                   │   └── MulExp
+        │       │           │       │                   │       └── UnaryExp
+        │       │           │       │                   │           └── PrimaryExp
+        │       │           │       │                   │               └── LVal
+        │       │           │       │                   │                   └── yuming
+        │       │           │       │                   ├── <
+        │       │           │       │                   └── RelExp
+        │       │           │       │                       └── AddExp
+        │       │           │       │                           └── MulExp
+        │       │           │       │                               └── UnaryExp
+        │       │           │       │                                   └── PrimaryExp
+        │       │           │       │                                       └── Number
+        │       │           │       │                                           └── IntConst
+        │       │           │       ├── ;
+        │       │           │       ├── )
+        │       │           │       └── Stmt
+        │       │           │           └── Block
+        │       │           │               ├── {
+        │       │           │               ├── BlockItem
+        │       │           │               │   └── Stmt
+        │       │           │               │       ├── LVal
+        │       │           │               │       │   └── yuming
+        │       │           │               │       ├── =
+        │       │           │               │       ├── Exp
+        │       │           │               │       │   └── AddExp
+        │       │           │               │       │       └── MulExp
+        │       │           │               │       │           ├── UnaryExp
+        │       │           │               │       │           │   └── PrimaryExp
+        │       │           │               │       │           │       └── LVal
+        │       │           │               │       │           │           └── yuming
+        │       │           │               │       │           ├── *
+        │       │           │               │       │           └── MulExp
+        │       │           │               │       │               └── UnaryExp
+        │       │           │               │       │                   └── PrimaryExp
+        │       │           │               │       │                       └── Number
+        │       │           │               │       │                           └── IntConst
+        │       │           │               │       └── ;
+        │       │           │               └── }
+        │       │           ├── BlockItem
+        │       │           │   └── Stmt
+        │       │           │       ├── printf
+        │       │           │       ├── (
+        │       │           │       ├── FormatString
+        │       │           │       ├── ,
+        │       │           │       ├── Exp
+        │       │           │       │   └── AddExp
+        │       │           │       │       └── MulExp
+        │       │           │       │           └── UnaryExp
+        │       │           │       │               └── PrimaryExp
+        │       │           │       │                   └── LVal
+        │       │           │       │                       └── yuming
+        │       │           │       ├── )
+        │       │           │       └── ;
+        │       │           └── }
+        │       ├── BlockItem
+        │       │   └── Stmt
+        │       │       ├── return
+        │       │       └── ;
+        │       └── }
+        └── MainFuncDef
+            ├── int
+            ├── main
+            ├── (
+            ├── )
+            └── Block
+                ├── {
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── printf
+                │       ├── (
+                │       ├── FormatString
+                │       ├── )
+                │       └── ;
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── if
+                │       ├── (
+                │       ├── Cond
+                │       │   └── LOrExp
+                │       │       └── LAndExp
+                │       │           ├── EqExp
+                │       │           │   ├── RelExp
+                │       │           │   │   └── AddExp
+                │       │           │   │       ├── MulExp
+                │       │           │   │       │   └── UnaryExp
+                │       │           │   │       │       └── PrimaryExp
+                │       │           │   │       │           └── LVal
+                │       │           │   │       │               └── ZERO
+                │       │           │   │       ├── +
+                │       │           │   │       └── AddExp
+                │       │           │   │           └── MulExp
+                │       │           │   │               └── UnaryExp
+                │       │           │   │                   └── PrimaryExp
+                │       │           │   │                       └── LVal
+                │       │           │   │                           └── var2
+                │       │           │   ├── ==
+                │       │           │   └── EqExp
+                │       │           │       └── RelExp
+                │       │           │           └── AddExp
+                │       │           │               ├── MulExp
+                │       │           │               │   └── UnaryExp
+                │       │           │               │       └── PrimaryExp
+                │       │           │               │           └── LVal
+                │       │           │               │               └── var3
+                │       │           │               ├── -
+                │       │           │               └── AddExp
+                │       │           │                   └── MulExp
+                │       │           │                       └── UnaryExp
+                │       │           │                           └── PrimaryExp
+                │       │           │                               └── LVal
+                │       │           │                                   └── ONE
+                │       │           ├── &&
+                │       │           └── LAndExp
+                │       │               └── EqExp
+                │       │                   └── RelExp
+                │       │                       └── AddExp
+                │       │                           └── MulExp
+                │       │                               └── UnaryExp
+                │       │                                   └── PrimaryExp
+                │       │                                       └── LVal
+                │       │                                           └── ONE
+                │       ├── )
+                │       └── Stmt
+                │           └── Block
+                │               ├── {
+                │               ├── BlockItem
+                │               │   └── Stmt
+                │               │       ├── if
+                │               │       ├── (
+                │               │       ├── Cond
+                │               │       │   └── LOrExp
+                │               │       │       ├── LAndExp
+                │               │       │       │   └── EqExp
+                │               │       │       │       └── RelExp
+                │               │       │       │           └── AddExp
+                │               │       │       │               └── MulExp
+                │               │       │       │                   └── UnaryExp
+                │               │       │       │                       └── PrimaryExp
+                │               │       │       │                           └── LVal
+                │               │       │       │                               └── ZERO
+                │               │       │       ├── ||
+                │               │       │       └── LOrExp
+                │               │       │           └── LAndExp
+                │               │       │               ├── EqExp
+                │               │       │               │   └── RelExp
+                │               │       │               │       └── AddExp
+                │               │       │               │           └── MulExp
+                │               │       │               │               └── UnaryExp
+                │               │       │               │                   ├── UnaryOp
+                │               │       │               │                   │   └── !
+                │               │       │               │                   └── UnaryExp
+                │               │       │               │                       └── PrimaryExp
+                │               │       │               │                           └── LVal
+                │               │       │               │                               └── ZERO
+                │               │       │               ├── &&
+                │               │       │               └── LAndExp
+                │               │       │                   └── EqExp
+                │               │       │                       └── RelExp
+                │               │       │                           ├── AddExp
+                │               │       │                           │   ├── MulExp
+                │               │       │                           │   │   └── UnaryExp
+                │               │       │                           │   │       └── PrimaryExp
+                │               │       │                           │   │           └── LVal
+                │               │       │                           │   │               └── ONE
+                │               │       │                           │   ├── +
+                │               │       │                           │   └── AddExp
+                │               │       │                           │       ├── MulExp
+                │               │       │                           │       │   └── UnaryExp
+                │               │       │                           │       │       └── PrimaryExp
+                │               │       │                           │       │           └── Number
+                │               │       │                           │       │               └── IntConst
+                │               │       │                           │       ├── +
+                │               │       │                           │       └── AddExp
+                │               │       │                           │           └── MulExp
+                │               │       │                           │               └── UnaryExp
+                │               │       │                           │                   └── PrimaryExp
+                │               │       │                           │                       └── LVal
+                │               │       │                           │                           └── var2
+                │               │       │                           ├── <
+                │               │       │                           └── RelExp
+                │               │       │                               └── AddExp
+                │               │       │                                   └── MulExp
+                │               │       │                                       └── UnaryExp
+                │               │       │                                           └── PrimaryExp
+                │               │       │                                               └── Number
+                │               │       │                                                   └── IntConst
+                │               │       ├── )
+                │               │       ├── Stmt
+                │               │       │   └── Block
+                │               │       │       ├── {
+                │               │       │       ├── BlockItem
+                │               │       │       │   └── Stmt
+                │               │       │       │       ├── printf
+                │               │       │       │       ├── (
+                │               │       │       │       ├── FormatString
+                │               │       │       │       ├── )
+                │               │       │       │       └── ;
+                │               │       │       └── }
+                │               │       ├── else
+                │               │       └── Stmt
+                │               │           └── Block
+                │               │               ├── {
+                │               │               ├── BlockItem
+                │               │               │   └── Stmt
+                │               │               │       ├── printf
+                │               │               │       ├── (
+                │               │               │       ├── FormatString
+                │               │               │       ├── )
+                │               │               │       └── ;
+                │               │               └── }
+                │               └── }
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── if
+                │       ├── (
+                │       ├── Cond
+                │       │   └── LOrExp
+                │       │       ├── LAndExp
+                │       │       │   └── EqExp
+                │       │       │       ├── RelExp
+                │       │       │       │   └── AddExp
+                │       │       │       │       └── MulExp
+                │       │       │       │           └── UnaryExp
+                │       │       │       │               └── PrimaryExp
+                │       │       │       │                   └── LVal
+                │       │       │       │                       └── var3
+                │       │       │       ├── !=
+                │       │       │       └── EqExp
+                │       │       │           └── RelExp
+                │       │       │               └── AddExp
+                │       │       │                   └── MulExp
+                │       │       │                       └── UnaryExp
+                │       │       │                           └── PrimaryExp
+                │       │       │                               └── Number
+                │       │       │                                   └── IntConst
+                │       │       ├── ||
+                │       │       └── LOrExp
+                │       │           └── LAndExp
+                │       │               └── EqExp
+                │       │                   ├── RelExp
+                │       │                   │   └── AddExp
+                │       │                   │       ├── MulExp
+                │       │                   │       │   └── UnaryExp
+                │       │                   │       │       └── PrimaryExp
+                │       │                   │       │           └── LVal
+                │       │                   │       │               └── var2
+                │       │                   │       ├── -
+                │       │                   │       └── AddExp
+                │       │                   │           └── MulExp
+                │       │                   │               └── UnaryExp
+                │       │                   │                   └── PrimaryExp
+                │       │                   │                       └── Number
+                │       │                   │                           └── IntConst
+                │       │                   ├── ==
+                │       │                   └── EqExp
+                │       │                       └── RelExp
+                │       │                           └── AddExp
+                │       │                               └── MulExp
+                │       │                                   └── UnaryExp
+                │       │                                       ├── UnaryOp
+                │       │                                       │   └── -
+                │       │                                       └── UnaryExp
+                │       │                                           └── PrimaryExp
+                │       │                                               └── Number
+                │       │                                                   └── IntConst
+                │       ├── )
+                │       └── Stmt
+                │           └── Block
+                │               ├── {
+                │               ├── BlockItem
+                │               │   └── Stmt
+                │               │       ├── if
+                │               │       ├── (
+                │               │       ├── Cond
+                │               │       │   └── LOrExp
+                │               │       │       ├── LAndExp
+                │               │       │       │   └── EqExp
+                │               │       │       │       └── RelExp
+                │               │       │       │           ├── AddExp
+                │               │       │       │           │   ├── MulExp
+                │               │       │       │           │   │   ├── UnaryExp
+                │               │       │       │           │   │   │   └── PrimaryExp
+                │               │       │       │           │   │   │       └── LVal
+                │               │       │       │           │   │   │           └── ONE
+                │               │       │       │           │   │   ├── %
+                │               │       │       │           │   │   └── MulExp
+                │               │       │       │           │   │       └── UnaryExp
+                │               │       │       │           │   │           └── PrimaryExp
+                │               │       │       │           │   │               └── Number
+                │               │       │       │           │   │                   └── IntConst
+                │               │       │       │           │   ├── +
+                │               │       │       │           │   └── AddExp
+                │               │       │       │           │       ├── MulExp
+                │               │       │       │           │       │   └── UnaryExp
+                │               │       │       │           │       │       └── PrimaryExp
+                │               │       │       │           │       │           └── Number
+                │               │       │       │           │       │               └── IntConst
+                │               │       │       │           │       ├── -
+                │               │       │       │           │       └── AddExp
+                │               │       │       │           │           ├── MulExp
+                │               │       │       │           │           │   ├── UnaryExp
+                │               │       │       │           │           │   │   └── PrimaryExp
+                │               │       │       │           │           │   │       └── Number
+                │               │       │       │           │           │   │           └── IntConst
+                │               │       │       │           │           │   ├── *
+                │               │       │       │           │           │   └── MulExp
+                │               │       │       │           │           │       └── UnaryExp
+                │               │       │       │           │           │           └── PrimaryExp
+                │               │       │       │           │           │               └── Number
+                │               │       │       │           │           │                   └── IntConst
+                │               │       │       │           │           ├── +
+                │               │       │       │           │           └── AddExp
+                │               │       │       │           │               ├── MulExp
+                │               │       │       │           │               │   └── UnaryExp
+                │               │       │       │           │               │       └── PrimaryExp
+                │               │       │       │           │               │           └── LVal
+                │               │       │       │           │               │               └── var3
+                │               │       │       │           │               ├── +
+                │               │       │       │           │               └── AddExp
+                │               │       │       │           │                   └── MulExp
+                │               │       │       │           │                       └── UnaryExp
+                │               │       │       │           │                           └── PrimaryExp
+                │               │       │       │           │                               └── LVal
+                │               │       │       │           │                                   └── var2
+                │               │       │       │           ├── <=
+                │               │       │       │           └── RelExp
+                │               │       │       │               └── AddExp
+                │               │       │       │                   └── MulExp
+                │               │       │       │                       └── UnaryExp
+                │               │       │       │                           └── PrimaryExp
+                │               │       │       │                               └── Number
+                │               │       │       │                                   └── IntConst
+                │               │       │       ├── ||
+                │               │       │       └── LOrExp
+                │               │       │           └── LAndExp
+                │               │       │               └── EqExp
+                │               │       │                   └── RelExp
+                │               │       │                       └── AddExp
+                │               │       │                           └── MulExp
+                │               │       │                               └── UnaryExp
+                │               │       │                                   └── PrimaryExp
+                │               │       │                                       └── LVal
+                │               │       │                                           └── ONE
+                │               │       ├── )
+                │               │       └── Stmt
+                │               │           └── Block
+                │               │               ├── {
+                │               │               ├── BlockItem
+                │               │               │   └── Stmt
+                │               │               │       ├── printf
+                │               │               │       ├── (
+                │               │               │       ├── FormatString
+                │               │               │       ├── )
+                │               │               │       └── ;
+                │               │               └── }
+                │               └── }
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── printf
+                │       ├── (
+                │       ├── FormatString
+                │       ├── )
+                │       └── ;
+                ├── BlockItem
+                │   └── Stmt
+                │       └── Block
+                │           ├── {
+                │           └── }
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── Exp
+                │       │   └── AddExp
+                │       │       └── MulExp
+                │       │           └── UnaryExp
+                │       │               ├── fun
+                │       │               ├── (
+                │       │               └── )
+                │       └── ;
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── Exp
+                │       │   └── AddExp
+                │       │       └── MulExp
+                │       │           └── UnaryExp
+                │       │               ├── fun
+                │       │               ├── (
+                │       │               └── )
+                │       └── ;
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── Exp
+                │       │   └── AddExp
+                │       │       └── MulExp
+                │       │           └── UnaryExp
+                │       │               ├── fun
+                │       │               ├── (
+                │       │               └── )
+                │       └── ;
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── Exp
+                │       │   └── AddExp
+                │       │       └── MulExp
+                │       │           └── UnaryExp
+                │       │               ├── fun
+                │       │               ├── (
+                │       │               └── )
+                │       └── ;
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── Exp
+                │       │   └── AddExp
+                │       │       └── MulExp
+                │       │           └── UnaryExp
+                │       │               ├── fun
+                │       │               ├── (
+                │       │               └── )
+                │       └── ;
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── Exp
+                │       │   └── AddExp
+                │       │       └── MulExp
+                │       │           └── UnaryExp
+                │       │               ├── fun
+                │       │               ├── (
+                │       │               └── )
+                │       └── ;
+                ├── BlockItem
+                │   └── Stmt
+                │       ├── return
+                │       ├── Exp
+                │       │   └── AddExp
+                │       │       └── MulExp
+                │       │           └── UnaryExp
+                │       │               └── PrimaryExp
+                │       │                   └── Number
+                │       │                       └── IntConst
+                │       └── ;
+                └── }
